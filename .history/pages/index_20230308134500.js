@@ -19,7 +19,7 @@ export default function Home () {
         <header>
           <nav>
           <Link href='lessons'>Lessons</Link>
-            <Link href='projects'>Projects</Link>
+            <Link href='projects'>Lessons</Link>
             <Link href='about'>About Us</Link>
           </nav>
         </header>

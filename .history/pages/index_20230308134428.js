@@ -18,8 +18,7 @@ export default function Home () {
       <main className={styles.main}>
         <header>
           <nav>
-          <Link href='lessons'>Lessons</Link>
-            <Link href='projects'>Projects</Link>
+            <Link href='lessons'>Lessons</Link>
             <Link href='about'>About Us</Link>
           </nav>
         </header>
