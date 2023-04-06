@@ -1,123 +1,124 @@
 const Footer = (props) => {
   return (
-    <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About</h2>
+    <footer className="ftco-footer ftco-section">
+      <div className="container">
+        <div className="row mb-5">
+          <div className="col-md">
+            <div className="ftco-footer-widget mb-4">
+              <h2 className="ftco-heading-2">About</h2>
               <p>
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts.
               </p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate">
+              <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li className="ftco-animate">
                   <a href="#">
-                    <span class="icon-twitter"></span>
+                    <span className="icon-twitter"></span>
                   </a>
                 </li>
-                <li class="ftco-animate">
+                <li className="ftco-animate">
                   <a href="#">
-                    <span class="icon-facebook"></span>
+                    <span className="icon-facebook"></span>
                   </a>
                 </li>
-                <li class="ftco-animate">
+                <li className="ftco-animate">
                   <a href="#">
-                    <span class="icon-instagram"></span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>About
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Services
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Projects
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Contact
+                    <span className="icon-instagram"></span>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
+          <div className="col-md">
+            <div className="ftco-footer-widget mb-4 ml-md-4">
+              <h2 className="ftco-heading-2">Links</h2>
+              <ul className="list-unstyled">
                 <li>
                   <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Web Design
+                    <span className="icon-long-arrow-right mr-2"></span>Home
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Web
+                    <span className="icon-long-arrow-right mr-2"></span>About
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className="icon-long-arrow-right mr-2"></span>Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className="icon-long-arrow-right mr-2"></span>Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className="icon-long-arrow-right mr-2"></span>Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md">
+            <div className="ftco-footer-widget mb-4">
+              <h2 className="ftco-heading-2">Services</h2>
+              <ul className="list-unstyled">
+                <li>
+                  <a href="#">
+                    <span className="icon-long-arrow-right mr-2"></span>Web
+                    Design
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className="icon-long-arrow-right mr-2"></span>Web
                     Development
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Business
+                    <span className="icon-long-arrow-right mr-2"></span>Business
                     Strategy
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Data
+                    <span className="icon-long-arrow-right mr-2"></span>Data
                     Analysis
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Graphic
+                    <span className="icon-long-arrow-right mr-2"></span>Graphic
                     Design
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
+          <div className="col-md">
+            <div className="ftco-footer-widget mb-4">
+              <h2 className="ftco-heading-2">Have a Questions?</h2>
+              <div className="block-23 mb-3">
                 <ul>
                   <li>
-                    <span class="icon icon-map-marker"></span>
-                    <span class="text">
+                    <span className="icon icon-map-marker"></span>
+                    <span className="text">
                       203 Fake St. Mountain View, San Francisco, California, USA
                     </span>
                   </li>
                   <li>
                     <a href="#">
-                      <span class="icon icon-phone"></span>
-                      <span class="text">+2 392 3929 210</span>
+                      <span className="icon icon-phone"></span>
+                      <span className="text">+2 392 3929 210</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <span class="icon icon-envelope"></span>
-                      <span class="text">info@yourdomain.com</span>
+                      <span className="icon icon-envelope"></span>
+                      <span className="text">info@yourdomain.com</span>
                     </a>
                   </li>
                 </ul>
@@ -125,8 +126,8 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div className="row">
+          <div className="col-md-12 text-center">
             <p>Gene Tenorlas</p>
           </div>
         </div>
