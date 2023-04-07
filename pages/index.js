@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Homepage from '../src/components/Home/Homepage'
-import Script from 'next/script';
 /* import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] }) */
@@ -20,13 +19,7 @@ export default function Home () {
 
       </Head>
       <Homepage />
-      <Script
-        src="/js/owl.carousel.min.js"
-        strategy="lazyOnload"
-        onLoad={() =>
-          console.log(`script loaded correctly, window.FB has been populated`)
-        }
-      />
+
     </>
   )
 }
